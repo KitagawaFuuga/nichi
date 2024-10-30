@@ -1,0 +1,30 @@
+name: nitioti
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  spritewidget:
+    forge2d: ^0.8.1
+
+  flutter_shapes: ^0.1.0 
+  extended_math: ^0.0.29+1
+  spotify: ^0.5.1
+  http: any
+  image: ^3.1.0
+  cupertino_icons: ^1.0.2
+  flame_forge2d: ^0.18.2+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
