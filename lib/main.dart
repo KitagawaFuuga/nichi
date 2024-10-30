@@ -7,13 +7,6 @@ import 'dart:ui' as ui;
 import 'package:flutter/material.dart';
 
 // 3rd party plugin
-import 'package:http/http.dart' as http;
-import 'package:image/image.dart' as image;
-import 'package:extended_math/extended_math.dart';
-import 'package:forge2d/forge2d.dart';
-import 'package:spritewidget/spritewidget.dart';
-import 'package:spotify/spotify.dart';
-
 void main() => runApp(MaterialApp(home: const _App()));
 
 class _App extends StatelessWidget {
